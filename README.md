@@ -1,5 +1,6 @@
 # Atendente Humanizado WhatsApp
 
+![](https://user-gen-media-assets.s3.amazonaws.com/seedream_images/6441444d-178c-4c5d-8baf-154ecad48a27.png)
 ## Descrição
 
 Este projeto implementa um atendente humanizado para WhatsApp utilizando automação com n8n e inteligência artificial. O sistema processa mensagens recebidas via WhatsApp, classifica o contexto da conversa e direciona para agentes especializados (suporte, SDR - Sales Development Representative, vendas) através de um gerente seletor inteligente.
@@ -36,17 +37,6 @@ O workflow permite configurar múltiplos agentes especializados que atuam de for
 - **Supabase**: Classificação AI e armazenamento vetorial
 - **Redis**: Operações de cache e gerenciamento de memória
 
-### Esquema do Banco de Dados
-```sql
-CREATE TABLE dados_cliente (
-  id bigserial primary key,
-  created_at TIMESTAMPTZ,
-  telefone text,
-  nomewpp text,
-  atendimento_ia text,
-  Setor text
-);
-```
 
 ## Instalação e Configuração
 
